@@ -1,0 +1,40 @@
+import {
+	Checkroom,
+	DeveloperMode,
+	FaceRetouchingNatural,
+	FitnessCenter,
+	GraphicEq,
+	Home,
+	LiveTv,
+	MusicNote,
+	OndemandVideo,
+	School,
+	SportsEsports,
+	TheaterComedy,
+	ChildFriendly,
+	SportsFootball,
+	Javascript,
+	LocationCity,
+	SportsSoccer,
+	ShortText,
+	YouTube
+} from '@mui/icons-material'
+
+export const category = [
+	{ name: 'New', icon: <Home /> },
+	{ name: 'Bukhara', icon: <LocationCity /> },
+	{ name: 'Football', icon: <SportsSoccer/> },
+	{ name: 'Uzbekistan', icon: <OndemandVideo /> },
+	{ name: 'Gaming', icon: <SportsEsports /> },
+	{ name: 'Education', icon: <School /> },
+	{ name: 'Sport', icon: <FitnessCenter /> },
+	{ name: 'Comedy', icon: <TheaterComedy /> },
+	{ name: 'Podcast', icon: <GraphicEq /> },
+	{ name: 'Fashion', icon: <Checkroom /> },
+	{ name: 'Gym', icon: <FitnessCenter /> },
+	{ name: 'Beauty', icon: <FaceRetouchingNatural /> },
+	{ name: 'Music', icon: <MusicNote /> },
+	{ name: 'Kids', icon: <ChildFriendly /> },
+	{ name: 'for/kids', icon: <ShortText />},
+	{ name: 'shorts', icon: <YouTube /> }
+]
